@@ -3,12 +3,15 @@ const dotenv = require('dotenv');
 const cors = require('cors');
 const path = require('path');  // <-- Added import for path
 
+
 // Import routes
 const galleryRoutes = require('./routes/gallery'); 
 const contactRoutes = require('./routes/contact');  
 const achievementsRoutes = require('./routes/achievements');  
 const announcementsRoutes = require('./routes/announcements');  
 const execomRoutes = require('./routes/execom');  
+const workshopsRoutes = require('./routes/workshops');
+const projectsRoutes = require('./routes/projects')
 
 dotenv.config();
 
@@ -25,6 +28,27 @@ app.use('/api', galleryRoutes);
 app.use('/api', achievementsRoutes);
 app.use('/api', announcementsRoutes);
 app.use('/api', execomRoutes);
+app.use('/api', workshopsRoutes);
+app.use('/api', projectsRoutes);
+
+// Swagger 
+const swaggerUi = require('swagger-ui-express')
+const swaggerJsdoc = require('swagger-jsdoc');
+
+const options = {
+    definition:{
+      openapi:"3.0.0",
+      info:{
+        title:"AeroCET API",
+        version:"1.0.0",
+        description:"API documentation for the AeroCET project",
+      },
+    },
+    apis:["./routes/*.js"],
+};
+
+const swaggerSpec = swaggerJsdoc(options);
+app.use("/api-docs",swaggerUi.serve,swaggerUi.setup(swaggerSpec));
 
 app.get('/', (req, res) => {
   res.send(`
@@ -57,4 +81,5 @@ app.get('/', (req, res) => {
 // Start the server
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
+  console.log(`Swagger docs at http://localhost:${port}/api-docs`);
 });

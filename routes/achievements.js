@@ -4,6 +4,36 @@ const path = require('path');
 
 const router = express.Router();
 
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     AchievementAPI:
+ *       type: string
+ *       format: uri
+ *       example: "/achievements/1.jpg"
+ */
+
+/**
+ * @swagger
+ * /api/achievements:
+ *   get:
+ *     summary: Get all achievement images
+ *     description: Returns an array of paths to achievement images stored in achievements.json
+ *     responses:
+ *       200:
+ *         description: Array of image paths
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 $ref: '#/components/schemas/AchievementAPI'
+ *       500:
+ *         description: Internal server error (file read or JSON parse error)
+ */
+
+
 router.get('/achievements', (req, res) => {
   const folderPath = path.join(__dirname, '../public/achievements');
   //test

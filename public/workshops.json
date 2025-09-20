@@ -1,0 +1,22 @@
+[
+    {
+        "workshop_id": "AeroCETWorkshop001",
+        "workshop_name": "Drone Operation Basics",
+        "instructor": "Amal Dev",
+        "assistants":["Jyotish","Rajeev"],
+        "date": "2023-03-10",
+        "time":"4:30 PM",
+        "duration": "3 hours",
+        "location": "A301"
+    },
+    {
+        "workshop_id": "AeroCETWorkshop002",
+        "workshop_name": "Data Analysis with Python",
+        "instructor": "Alan Joy",
+        "assistants":["Neethu","Praveen"],
+        "date": "2023-04-15",
+        "time":"4:30 PM",
+        "duration": "2 hours",
+        "location": "CS203"
+    }
+]

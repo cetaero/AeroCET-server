@@ -1,0 +1,18 @@
+[
+    {
+        "project_id":"AeroCETProject001",
+        "project_name": "AeroCET Drone Project",
+        "project_head": "Alex ",
+        "start_date":"2023-01-15",
+        "end_date": "2023-12-31",
+        "status": "In Progress"
+    },
+    {
+        "project_id":"AeroCETProject002",
+        "project_name": "AeroCET Data Analysis",
+        "project_head": "John ",
+        "start_date":"2023-02-01",
+        "end_date": "2023-11-30",
+        "status": "Not Started"
+    }
+]
