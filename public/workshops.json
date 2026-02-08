@@ -1,22 +1,24 @@
 [
-    {
-        "workshop_id": "AeroCETWorkshop001",
-        "workshop_name": "Drone Operation Basics",
-        "instructor": "Amal Dev",
-        "assistants":["Jyotish","Rajeev"],
-        "date": "2023-03-10",
-        "time":"4:30 PM",
-        "duration": "3 hours",
-        "location": "A301"
-    },
-    {
-        "workshop_id": "AeroCETWorkshop002",
-        "workshop_name": "Data Analysis with Python",
-        "instructor": "Alan Joy",
-        "assistants":["Neethu","Praveen"],
-        "date": "2023-04-15",
-        "time":"4:30 PM",
-        "duration": "2 hours",
-        "location": "CS203"
-    }
+  {
+    "workshop_id": "AeroCETWorkshop003",
+    "workshop_name": "RC Plane Building Workshop – Kochi",
+    "image": "/workshops/rc-kochi.jpeg",
+    "date": "2025-04-17",
+    "location": "Sacred Heart College, Thevara, Kochi",
+    "organised_by": "AeroCET",
+    "collaboration": "Friends School, Trivandrum",
+    "event": "Explorlife Summer Camp 2025",
+    "description": "AeroCET, in association with Friends School, Trivandrum, conducted an RC Plane Building Workshop on April 17, 2025, at Sacred Heart College, Thevara, Kochi. The workshop introduced school students to the fundamentals of aeromodelling and flight through hands-on aircraft assembly and flying demonstrations, fostering curiosity and practical learning in aviation."
+  },
+  {
+    "workshop_id": "AeroCETWorkshop004",
+    "workshop_name": "RC Plane Building Workshop – Trivandrum",
+    "image": "/workshops/rc-tvm.jpeg",
+    "date": "2025-05-23",
+    "location": "Friends School, Trivandrum",
+    "organised_by": "AeroCET",
+    "collaboration": "Friends School, Trivandrum",
+    "event": "Explorlife Summer Camp 2025",
+    "description": "As part of Explorlife Summer Camp 2025, AeroCET, in collaboration with Friends School, Trivandrum, organized an RC Plane Building Workshop on May 23, 2025. The session provided students with an immersive experience in building and flying RC aircraft, encouraging early interest in aerospace engineering and experiential STEM education."
+  }
 ]
