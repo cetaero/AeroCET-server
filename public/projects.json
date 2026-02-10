@@ -1,18 +1,43 @@
 [
     {
         "project_id":"AeroCETProject001",
-        "project_name": "AeroCET Drone Project",
-        "project_head": "Alex ",
-        "start_date":"2023-01-15",
-        "end_date": "2023-12-31",
-        "status": "In Progress"
+        "project_name": "Autonomous Delivery Drone",
+        "project_head": "",
+        "start_date":"",
+        "end_date": "",
+        "status": "Completed",
+        "img_path":"/public/projects/autonomous_drone.jpeg",
+        "description":"We designed and fabricated an autonomous delivery drone capable of executing secure deliveries across varied terrains and environmental conditions. The system incorporates a pre-scanning safety and verification mechanism that uses precise location data and onboard camera feedback to validate the delivery zone before payload release. Autonomous navigation and controlled descent ensure accurate positioning and operational reliability. The drone is engineered for robustness, allowing stable performance under harsh conditions. This project demonstrates the application of autonomous aerial systems and sensor-based decision-making in real-world logistics."
     },
     {
         "project_id":"AeroCETProject002",
-        "project_name": "AeroCET Data Analysis",
-        "project_head": "John ",
-        "start_date":"2023-02-01",
-        "end_date": "2023-11-30",
-        "status": "Not Started"
+        "project_name": "Dual Drone Autonomous System for Precise Agriculture",
+        "project_head": "",
+        "start_date":"",
+        "end_date": "",
+        "status": "Completed",
+        "img_path":"/public/projects/autonomous_dual_drone.jpeg",
+        "description":"Our dual-drone autonomous system is designed for precision agriculture, enabling efficient crop monitoring and targeted pesticide application. The system employs two coordinated drones: one autonomous quadcopter equipped with a camera, Raspberry Pi, and navigation modules to survey fields, detect crop stress through visual analysis, and tag affected locations using GPS data. These coordinates are wirelessly transmitted to a second hexacopter drone integrated with a precision spraying mechanism, which autonomously navigates to the identified zones and applies pesticides selectively. By enabling targeted intervention, the system significantly reduces chemical usage, labor requirements, and environmental impact. The project demonstrates a scalable, sensor-driven approach to sustainable smart farming."
+    },
+    {
+        "project_id":"AeroCETProject003",
+        "project_name": "Minimal Fixed-Wing Flight Controller",
+        "project_head": "",
+        "start_date":"",
+        "end_date": "",
+        "status": "Ongoing",
+        "img_path":"",
+        "description":"The Flight Controller project is an ongoing experimental research initiative focused on developing a minimal yet robust stabilization system for fixed-wing aircraft. The system estimates real-time flight orientation using gyroscopic sensor data and computes corrective control responses to counteract turbulence and external disturbances. When instability is detected, the controller dynamically overrides pilot aileron inputs to maintain controlled flight behavior. Initial prototyping has been implemented on an Arduino Uno platform, with future upgrades planned using higher-performance microcontrollers such as the ESP32 to enable faster computation, improved sensor fusion, and greater control precision. This work represents a foundational step toward reliable autonomous assistance and advanced flight safety systems."
+    },
+    {
+        "project_id":"AeroCETProject004",
+        "project_name": "Fixed-Wing UAV Development Program",
+        "project_head": "",
+        "start_date":"",
+        "end_date": "",
+        "status": "Ongoing",
+        "img_path":"",
+        "description":"Our team has successfully conceptualized and fabricated two flagship fixed-wing unmanned aerial vehicles, the Fire Fox and the Red Hawk. These aircraft are engineered to maximize payload fraction while maintaining aerodynamic efficiency, flight stability, and structural integrity. The prototypes were primarily constructed using balsa wood, enabling lightweight yet durable airframes. Building on this foundation, the current phase of development explores advanced manufacturing techniques, including 3D printing with Lightweight PLA (LW-PLA), alongside research into a novel bio-inspired foldable wing mechanism. The initiative aims to push performance limits while enabling easier transport, rapid deployment, and future mission adaptability."
     }
+
 ]
